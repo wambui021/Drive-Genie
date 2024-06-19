@@ -57,4 +57,68 @@ View your profile to track your performance and achievements.
 
 Check the leaderboards to see how you rank against other users.
 
+## Firebase Setup
+Update the Firebase configuration in scripts.js with your Firebase project details:
+
+firebase.initializeApp({
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    databaseURL: "YOUR_DATABASE_URL"
+});
+
+## Project Structure
+drivegenie/
+├── public/
+│   ├── index.html
+│   ├── styles.css
+│   └── scripts.js
+├── server/
+│   └── index.js
+├── .gitignore
+├── firebase.json
+├── package.json
+└── README.md
+
+## Contributing
+We welcome contributions to DriveGenie! Here are some ways you can contribute:
+
+1. **Report Bugs:**
+
+If you encounter any bugs, please open an issue with detailed information on how to reproduce the problem.
+
+2. **Suggest Features:**
+
+Have an idea for a new feature? Open an issue to discuss your ideas.
+
+3. **Submit Pull Requests:**
+
+Fork the repository, create a new branch for your changes, and submit a pull request. Make sure to follow the existing code style and include tests for your changes.
+# Fork the repository
+git clone 
+cd drivegenie
+
+# Create a new branch for your feature or bugfix
+git checkout -b my-feature-branch
+
+# Make your changes and commit them
+git commit -m "Description of my changes"
+
+# Push your changes to your fork
+git push origin my-feature-branch
+
+# Open a pull request on GitHub
+
+4. **Improve Documentation**
+
+Help us improve our documentation! Feel free to suggest improvements or submit changes to the documentation.
+
+
+## License
+
+This **Contributing** section provides a clear guide on how users can contribute to the DriveGenie project, whether by reporting bugs, suggesting features, submitting pull requests, or improving documentation. Adjust the repository URL and any specific project details as necessary.
+
+
+
+
 
