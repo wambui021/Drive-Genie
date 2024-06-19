@@ -1,5 +1,5 @@
 # Drive-Genie
-
+Gamified driver training and performance management App
 
 DriveGenie is a gamified driver training and performance management web application. This app aims to make learning and improving driving skills engaging through gamification elements such as points, badges, levels, and leaderboards.
 
