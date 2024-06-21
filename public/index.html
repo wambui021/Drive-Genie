@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveGenie Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>DriveGenie Dashboard</h1>
+        <div id="authButtons">
+            <button id="loginBtn">Login</button>
+            <button id="signupBtn">Sign Up</button>
+        </div>
+    </header>
+    <main>
+        <div class="dashboard-container">
+            <div class="card" id="exploreModules">
+                <img src="images/modules-icon.png" alt="Modules Icon">
+                <h2>Explore Training Modules</h2>
+                <button>Go</button>
+            </div>
+            <div class="card" id="trackPerformance">
+                <img src="images/performance-icon.png" alt="Performance Icon">
+                <h2>Track Performance</h2>
+                <button>Go</button>
+            </div>
+            <div class="card" id="leaderboard">
+                <img src="images/leaderboard-icon.png" alt="Leaderboard Icon">
+                <h2>Leaderboard</h2>
+                <button>Go</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 DriveGenie. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://twitter.com/wambuikaberia" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/in/teresiah-kaberia-7815081b1/" target="_blank"><img src="images/linkedIn-icon.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram-icon.jpeg" alt="Instagram"></a>
+            </div>
+            <p>For support, contact us at <a href="tel:+254790298">+ (254) 790-298-796</a></p>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>
