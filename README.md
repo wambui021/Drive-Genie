@@ -37,8 +37,8 @@ DriveGenie is a gamified driver training and performance management web applicat
 1. **Clone the repository:**
 
    ```bash
-   git clone
-   cd drivegenie
+   git clone https://github.com/wambui021/Drive-Genie
+   cd DriveGenie
 
 ## Usage
 1. **Sign Up/Login:**
@@ -95,8 +95,8 @@ Have an idea for a new feature? Open an issue to discuss your ideas.
 
 Fork the repository, create a new branch for your changes, and submit a pull request. Make sure to follow the existing code style and include tests for your changes.
 # Fork the repository
-git clone 
-cd drivegenie
+git clone https://github.com/wambui021/Drive-Genie
+cd DriveGenie
 
 # Create a new branch for your feature or bugfix
 git checkout -b my-feature-branch
