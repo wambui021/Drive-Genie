@@ -1,0 +1,19 @@
+{
+  "name": "drive-genie",
+  "version": "1.0.0",
+  "description": "DriveGenie is a gamified driver training and performance management web application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["driver training", "gamification", "performance management"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "firebase-admin": "^12.2.0",
+    "firebase-functions": "^5.0.1"
+  }
+}
